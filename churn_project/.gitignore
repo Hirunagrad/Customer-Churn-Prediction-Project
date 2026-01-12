@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Streamlit
+.streamlit/
+
+# Model files
+*.joblib
+*.pkl
+
+# Data files
+data/*.xlsx
+data/*.csv
+
+# Logs
+*.log
+
