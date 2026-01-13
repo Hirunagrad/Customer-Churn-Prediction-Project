@@ -223,7 +223,7 @@ User authentication
 
 Model monitoring
 
-Cloud deployment
+Cloud deployment : backend http://54.226.13.63:8000/
 
 Batch predictions
 
