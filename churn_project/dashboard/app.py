@@ -3,7 +3,7 @@ import requests
 import pandas as pd
 import plotly.express as px
 
-API_URL = "http://localhost:8000"
+API_URL = "http://54.226.13.63:8000/"
 
 # ========================
 # Page Config
