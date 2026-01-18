@@ -1,27 +1,24 @@
-# Core
-pandas>=2.2
-numpy>=2.0
-scipy>=1.11
+# Streamlit core
+streamlit==1.32.0
 
-# Excel support
-openpyxl>=3.1
+# Data handling
+pandas==2.3.3
+numpy==2.4.1
 
-# Machine Learning
-scikit-learn>=1.4
-imbalanced-learn>=0.12
-xgboost>=2.0
-joblib>=1.3
+# Machine learning (if used in frontend, otherwise remove)
+scikit-learn==1.6.1
+xgboost==2.0.0
+joblib==1.3
 
-# Backend API
-fastapi>=0.110
-uvicorn[standard]>=0.27
-pydantic>=2.6
-
-# Frontend Dashboard
-streamlit>=1.32
-requests>=2.31
+# HTTP requests
+requests==2.32.5
 
 # Visualization
-matplotlib>=3.8
-seaborn>=0.13
+matplotlib==3.8.1
+seaborn==0.13.2
 plotly==6.5.1
+
+# Optional / dependency support
+python-dateutil==2.9.0
+pytz==2025.2
+packaging==25.0
