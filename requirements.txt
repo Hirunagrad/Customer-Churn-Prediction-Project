@@ -1,8 +1,15 @@
-# Frontend - Streamlit dashboard
+# Streamlit dashboard
 streamlit==1.32.0
 plotly==6.5.1
-pandas==2.2.0   # latest version compatible with numpy<2
+
+# Data processing
 numpy>=1.22,<2
-matplotlib==3.8.1
+pandas>=2.2,<2.4
+
+# Visualization
+matplotlib==3.7.1
 seaborn==0.13.2
+
+# Utilities
 requests==2.32.5
+
